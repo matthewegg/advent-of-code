@@ -46,10 +46,6 @@ int main() {
 }
 */
 
-/*
-    keep a counter for the number of lines, make an integer vector for that number of lines, and put 1s in every place, then add iterations for every line as you go through the rows and find matching nums
-*/
-
 int main() {
     ifstream file;
     string line;
@@ -91,22 +87,6 @@ int main() {
         }
         sum += card[i];
     }
-
     cout << sum << endl;
-
-/*
-    for (int i = 0; i < line_count; i++) {
-        int carrier = card[i];
-        cout << "hello?" << endl;
-        while (carrier > 0) {
-            for (int j = 1; j <= card_winner_count[i]; j++) {
-                card[i + j]++;
-            }
-        }
-        sum += card[i];
-    }
-
-    cout << "sum of card counts: " << sum << endl;
-*/
     return 0;
 }
