@@ -48,7 +48,7 @@ int findLowestLocation(const vector<int>& seeds, const vector<vector<int>>& conv
 }
 
 int main() {
-    ifstream inputFile("input.txt"); // Replace with your actual input file name
+    ifstream inputFile("input.txt");
 
     if (!inputFile) {
         cerr << "Error opening input file." << endl;
