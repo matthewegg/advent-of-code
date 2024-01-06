@@ -13,7 +13,7 @@ function lcm(a, b) {
 
 const fs = require("fs");
 const [directions, garbage_line, ...mapping] = fs.readFileSync("input", "utf-8").split("\r\n").map(x => x.split(" = "));
-const starting_nodes = [];
+var starting_nodes = [];
 var map = new Map();
 
 for (let line of mapping) {
